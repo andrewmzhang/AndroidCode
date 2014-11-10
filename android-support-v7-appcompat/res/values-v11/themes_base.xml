@@ -16,78 +16,78 @@
 
 <resources>
 
-    <!-- Themes in the "Theme.Base" family vary based on the current platform
-          version to provide the correct basis on each device. You probably don't
-          want to use them directly in your apps.
+	<!-- Themes in the "Theme.Base" family vary based on the current platform
+		  version to provide the correct basis on each device. You probably don't
+		  want to use them directly in your apps.
 
-          Themes in the "Theme.AppCompat" family are meant to be extended or used
-          directly by apps.
+		  Themes in the "Theme.AppCompat" family are meant to be extended or used
+		  directly by apps.
 
-          This is the values-v11/ file that only declares the Base themes for
-          Honeycomb+. You probably want to edit values/themes.xml instead. -->
-    <eat-comment/>
+		  This is the values-v11/ file that only declares the Base themes for
+		  Honeycomb+. You probably want to edit values/themes.xml instead. -->
+	<eat-comment/>
 
-    <!-- Base platform-dependent theme  -->
-    <style name="Theme.Base" parent="android:Theme.Holo">
-        <item name="android:windowNoTitle">true</item>
-        <item name="android:windowActionBar">false</item>
+	<!-- Base platform-dependent theme  -->
+	<style name="Theme.Base" parent="android:Theme.Holo">
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:windowActionBar">false</item>
 
-        <!--
-            A native Action Mode could be displayed (for text selection, etc) so we need to ensure
-            that it is positioned correctly, so we request windowActionModeOverlay so that it
-            displays over the compat Action Bar.
-        -->
-        <item name="android:windowActionModeOverlay">true</item>
+		<!--
+			A native Action Mode could be displayed (for text selection, etc) so we need to ensure
+			that it is positioned correctly, so we request windowActionModeOverlay so that it
+			displays over the compat Action Bar.
+		-->
+		<item name="android:windowActionModeOverlay">true</item>
 
-        <!-- Attributes populated from the framework to be read by apps -->
-        <item name="buttonBarStyle">?android:attr/buttonBarStyle</item>
-        <item name="buttonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
-        <item name="selectableItemBackground">?android:attr/selectableItemBackground</item>
-    </style>
+		<!-- Attributes populated from the framework to be read by apps -->
+		<item name="buttonBarStyle">?android:attr/buttonBarStyle</item>
+		<item name="buttonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+		<item name="selectableItemBackground">?android:attr/selectableItemBackground</item>
+	</style>
 
-    <!-- Base platform-dependent theme providing a light-themed activity. -->
-    <style name="Theme.Base.Light" parent="android:Theme.Holo.Light">
-        <item name="android:windowNoTitle">true</item>
-        <item name="android:windowActionBar">false</item>
+	<!-- Base platform-dependent theme providing a light-themed activity. -->
+	<style name="Theme.Base.Light" parent="android:Theme.Holo.Light">
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:windowActionBar">false</item>
 
-        <!--
-            A native Action Mode could be displayed (for text selection, etc) so we need to ensure
-            that it is positioned correctly, so we request windowActionModeOverlay so that it
-            displays over the compat Action Bar.
-        -->
-        <item name="android:windowActionModeOverlay">true</item>
+		<!--
+			A native Action Mode could be displayed (for text selection, etc) so we need to ensure
+			that it is positioned correctly, so we request windowActionModeOverlay so that it
+			displays over the compat Action Bar.
+		-->
+		<item name="android:windowActionModeOverlay">true</item>
 
-        <!-- Attributes populated from the framework to be read by apps -->
-        <item name="buttonBarStyle">?android:attr/buttonBarStyle</item>
-        <item name="buttonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
-        <item name="selectableItemBackground">?android:attr/selectableItemBackground</item>
-    </style>
+		<!-- Attributes populated from the framework to be read by apps -->
+		<item name="buttonBarStyle">?android:attr/buttonBarStyle</item>
+		<item name="buttonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+		<item name="selectableItemBackground">?android:attr/selectableItemBackground</item>
+	</style>
 
-    <style name="Theme.Base.AppCompat.Dialog.FixedSize" parent="android:Theme.Holo.Dialog">
-        <item name="windowFixedWidthMajor">@dimen/dialog_fixed_width_major</item>
-        <item name="windowFixedWidthMinor">@dimen/dialog_fixed_width_minor</item>
-        <item name="windowFixedHeightMajor">@dimen/dialog_fixed_height_major</item>
-        <item name="windowFixedHeightMinor">@dimen/dialog_fixed_height_minor</item>
-        <item name="windowActionBar">false</item>
+	<style name="Theme.Base.AppCompat.Dialog.FixedSize" parent="android:Theme.Holo.Dialog">
+		<item name="windowFixedWidthMajor">@dimen/dialog_fixed_width_major</item>
+		<item name="windowFixedWidthMinor">@dimen/dialog_fixed_width_minor</item>
+		<item name="windowFixedHeightMajor">@dimen/dialog_fixed_height_major</item>
+		<item name="windowFixedHeightMinor">@dimen/dialog_fixed_height_minor</item>
+		<item name="windowActionBar">false</item>
 
-        <!-- Attributes populated from the framework to be read by apps -->
-        <item name="buttonBarStyle">?android:attr/buttonBarStyle</item>
-        <item name="buttonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
-        <item name="selectableItemBackground">?android:attr/selectableItemBackground</item>
-    </style>
+		<!-- Attributes populated from the framework to be read by apps -->
+		<item name="buttonBarStyle">?android:attr/buttonBarStyle</item>
+		<item name="buttonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+		<item name="selectableItemBackground">?android:attr/selectableItemBackground</item>
+	</style>
 
-    <style name="Theme.Base.AppCompat.Dialog.Light.FixedSize"
-           parent="android:Theme.Holo.Light.Dialog">
-        <item name="windowFixedWidthMajor">@dimen/dialog_fixed_width_major</item>
-        <item name="windowFixedWidthMinor">@dimen/dialog_fixed_width_minor</item>
-        <item name="windowFixedHeightMajor">@dimen/dialog_fixed_height_major</item>
-        <item name="windowFixedHeightMinor">@dimen/dialog_fixed_height_minor</item>
-        <item name="windowActionBar">false</item>
+	<style name="Theme.Base.AppCompat.Dialog.Light.FixedSize"
+		   parent="android:Theme.Holo.Light.Dialog">
+		<item name="windowFixedWidthMajor">@dimen/dialog_fixed_width_major</item>
+		<item name="windowFixedWidthMinor">@dimen/dialog_fixed_width_minor</item>
+		<item name="windowFixedHeightMajor">@dimen/dialog_fixed_height_major</item>
+		<item name="windowFixedHeightMinor">@dimen/dialog_fixed_height_minor</item>
+		<item name="windowActionBar">false</item>
 
-        <!-- Attributes populated from the framework to be read by apps -->
-        <item name="buttonBarStyle">?android:attr/buttonBarStyle</item>
-        <item name="buttonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
-        <item name="selectableItemBackground">?android:attr/selectableItemBackground</item>
-    </style>
+		<!-- Attributes populated from the framework to be read by apps -->
+		<item name="buttonBarStyle">?android:attr/buttonBarStyle</item>
+		<item name="buttonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+		<item name="selectableItemBackground">?android:attr/selectableItemBackground</item>
+	</style>
 
 </resources>

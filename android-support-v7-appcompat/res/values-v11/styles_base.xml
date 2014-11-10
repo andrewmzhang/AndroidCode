@@ -16,29 +16,29 @@
 
 <resources>
 
-    <!-- Like in themes_base.xml, the namespace "*.AppCompat.Base" is used to
-     define base styles for the platform version. The "*.AppCompat"
-     variants are for direct use or use as parent styles by the app. -->
-    <eat-comment/>
+	<!-- Like in themes_base.xml, the namespace "*.AppCompat.Base" is used to
+	 define base styles for the platform version. The "*.AppCompat"
+	 variants are for direct use or use as parent styles by the app. -->
+	<eat-comment/>
 
-    <!-- Progress Bar -->
+	<!-- Progress Bar -->
 
-    <style name="Widget.AppCompat.Base.ProgressBar.Horizontal"
-           parent="android:Widget.Holo.ProgressBar.Horizontal">
-    </style>
+	<style name="Widget.AppCompat.Base.ProgressBar.Horizontal"
+		   parent="android:Widget.Holo.ProgressBar.Horizontal">
+	</style>
 
-    <style name="Widget.AppCompat.Base.ProgressBar"
-           parent="android:Widget.Holo.ProgressBar">
-    </style>
+	<style name="Widget.AppCompat.Base.ProgressBar"
+		   parent="android:Widget.Holo.ProgressBar">
+	</style>
 
-    <!-- AutoCompleteTextView styles (for SearchView) -->
+	<!-- AutoCompleteTextView styles (for SearchView) -->
 
-    <style name="Widget.AppCompat.Base.AutoCompleteTextView"
-           parent="android:Widget.Holo.AutoCompleteTextView">
-    </style>
+	<style name="Widget.AppCompat.Base.AutoCompleteTextView"
+		   parent="android:Widget.Holo.AutoCompleteTextView">
+	</style>
 
-    <style name="Widget.AppCompat.Light.Base.AutoCompleteTextView"
-           parent="android:Widget.Holo.Light.AutoCompleteTextView">
-    </style>
+	<style name="Widget.AppCompat.Light.Base.AutoCompleteTextView"
+		   parent="android:Widget.Holo.Light.AutoCompleteTextView">
+	</style>
 
 </resources>

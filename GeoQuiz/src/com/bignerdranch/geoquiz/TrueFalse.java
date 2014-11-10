@@ -1,30 +1,30 @@
 package com.bignerdranch.geoquiz;
 
 public class TrueFalse {
-	private int mQuestion;
-	
-	private boolean mTrueQuestion;
-	
-	public TrueFalse(int question, boolean trueQuestion) {
-		mQuestion = question;
-		mTrueQuestion = trueQuestion;
-	}
+    private int mQuestion;
 
-	public int getQuestion() {
-		return mQuestion;
-	}
+    private boolean mTrueQuestion;
 
-	public void setQuestion(int question) {
-		mQuestion = question;
-	}
+    public TrueFalse(int question, boolean trueQuestion) {
+        mQuestion = question;
+        mTrueQuestion = trueQuestion;
+    }
 
-	public boolean isTrueQuestion() {
-		return mTrueQuestion;
-	}
+    public int getQuestion() {
+        return mQuestion;
+    }
 
-	public void setTrueQuestion(boolean trueQuestion) {
-		mTrueQuestion = trueQuestion;
-	}
-	
-	
+    public void setQuestion(int question) {
+        mQuestion = question;
+    }
+
+    public boolean isTrueQuestion() {
+        return mTrueQuestion;
+    }
+
+    public void setTrueQuestion(boolean trueQuestion) {
+        mTrueQuestion = trueQuestion;
+    }
+
+
 }
