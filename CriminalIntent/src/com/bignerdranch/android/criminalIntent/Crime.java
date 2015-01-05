@@ -19,7 +19,6 @@ public class Crime {
         mId = UUID.randomUUID();
         mDate = new Date();
         mDateFormat = new DateFormat();
-        mDateString = mDateFormat.format("EEEE, MMM d, yyyy", mDate).toString();
 
     }
 
@@ -52,7 +51,7 @@ public class Crime {
     }
 
     public String getDateString() {
-        return mDateString;
+        return mDateFormat.format("EEEE, MMM d, yyyy", mDate).toString();
     }
 
     @Override

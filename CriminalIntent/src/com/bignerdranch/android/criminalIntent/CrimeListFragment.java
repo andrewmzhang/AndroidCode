@@ -24,11 +24,9 @@ public class CrimeListFragment extends ListFragment {
     public void onListItemClick(ListView l, View v, int position, long id) {
         Crime c = ((CrimeAdapter)getListAdapter()).getItem(position);
 
-        // Start Crime Activity
-        Intent i = new Intent(getActivity(), CrimeActivity.class);
+        Intent i = new Intent(getActivity(), CrimePagerActivity.class);
         i.putExtra(CrimeFragment.EXTRA_CRIME_ID, c.getId());
         startActivity(i);
-
 
 
     }
@@ -41,14 +39,17 @@ public class CrimeListFragment extends ListFragment {
     }
 
     @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+    public void onActivityCreated(Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+
         getActivity().setTitle(R.string.crimes_title);
 
         mCrimes = CrimeLab.get(getActivity()).getCrimes();
 
         CrimeAdapter adapter = new CrimeAdapter(mCrimes);
         setListAdapter(adapter);
+
+
     }
 
     private class CrimeAdapter extends ArrayAdapter<Crime> {
