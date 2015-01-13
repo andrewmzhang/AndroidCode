@@ -1,6 +1,7 @@
 package com.bignerdranch.android.criminalIntent;
 
 import android.text.format.DateFormat;
+
 import java.util.Date;
 import java.util.UUID;
 
@@ -51,7 +52,7 @@ public class Crime {
     }
 
     public String getDateString() {
-        return mDateFormat.format("EEEE, MMM d, yyyy", mDate).toString();
+        return mDateFormat.format("hh:mm aa EEEE, MMM d, yyyy", mDate).toString();
     }
 
     @Override

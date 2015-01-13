@@ -53,6 +53,9 @@ public class CrimeFragment extends Fragment {
 
             Date date = (Date) data
                     .getSerializableExtra(DatePickerFragment.EXTRA_DATE);
+            if (date == null)
+                date = (Date) data.getSerializableExtra(TimePickerFragment.EXTRA_TIME);
+
             mCrime.setDate(date);
             updateDate();
 
@@ -65,7 +68,7 @@ public class CrimeFragment extends Fragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        UUID crimeId = (UUID)getArguments().getSerializable(EXTRA_CRIME_ID);
+        UUID crimeId = (UUID) getArguments().getSerializable(EXTRA_CRIME_ID);
 
         mCrime = CrimeLab.get(getActivity()).getCrime(crimeId);
 
@@ -76,7 +79,7 @@ public class CrimeFragment extends Fragment {
                              Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.fragment_crime, parent, false);
 
-        mTitleField = (EditText)v.findViewById(R.id.crime_title);
+        mTitleField = (EditText) v.findViewById(R.id.crime_title);
         mTitleField.setText(mCrime.getTitle());
         mTitleField.addTextChangedListener(new TextWatcher() {
             public void onTextChanged(
@@ -95,7 +98,7 @@ public class CrimeFragment extends Fragment {
             }
         });
 
-        mDateButton = (Button)v.findViewById(R.id.crime_date);
+        mDateButton = (Button) v.findViewById(R.id.crime_date);
         updateDate();
 
         mDateButton.setOnClickListener(new View.OnClickListener() {
@@ -103,7 +106,7 @@ public class CrimeFragment extends Fragment {
             public void onClick(View v) {
 
                 FragmentManager fm = getActivity().getSupportFragmentManager();
-                DatePickerFragment dialog = DatePickerFragment.newInstance(mCrime.getDate());
+                TimePickerFragment dialog = TimePickerFragment.newInstance(mCrime.getDate());
                 dialog.setTargetFragment(CrimeFragment.this, REQUEST_DATE);
                 dialog.show(fm, DIALOG_DATE);
 
@@ -112,8 +115,7 @@ public class CrimeFragment extends Fragment {
         });
 
 
-
-        mSolvedCheckBox = (CheckBox)v.findViewById(R.id.crime_solved);
+        mSolvedCheckBox = (CheckBox) v.findViewById(R.id.crime_solved);
         mSolvedCheckBox.setChecked(mCrime.isSolved());
         mSolvedCheckBox.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override

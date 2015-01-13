@@ -19,10 +19,9 @@ public class CrimeListFragment extends ListFragment {
     private static final String TAG = "CrimeListFragment";
 
 
-
     @Override
     public void onListItemClick(ListView l, View v, int position, long id) {
-        Crime c = ((CrimeAdapter)getListAdapter()).getItem(position);
+        Crime c = ((CrimeAdapter) getListAdapter()).getItem(position);
 
         Intent i = new Intent(getActivity(), CrimePagerActivity.class);
         i.putExtra(CrimeFragment.EXTRA_CRIME_ID, c.getId());
@@ -34,7 +33,7 @@ public class CrimeListFragment extends ListFragment {
     @Override
     public void onResume() {
         super.onResume();
-        ((CrimeAdapter)getListAdapter()).notifyDataSetChanged();
+        ((CrimeAdapter) getListAdapter()).notifyDataSetChanged();
 
     }
 
@@ -71,13 +70,13 @@ public class CrimeListFragment extends ListFragment {
             Crime c = getItem(position);
 
             TextView titleTextView =
-                    (TextView)convertView.findViewById(R.id.crime_list_item_titleTextView);
+                    (TextView) convertView.findViewById(R.id.crime_list_item_titleTextView);
             titleTextView.setText(c.getTitle());
             TextView dateTextView =
-                    (TextView)convertView.findViewById(R.id.crime_list_item_dateTextView);
+                    (TextView) convertView.findViewById(R.id.crime_list_item_dateTextView);
             dateTextView.setText(c.getDateString());
             CheckBox solvedCheckbox =
-                    (CheckBox)convertView.findViewById(R.id.crime_list_item_solvedCheckBox);
+                    (CheckBox) convertView.findViewById(R.id.crime_list_item_solvedCheckBox);
             solvedCheckbox.setChecked(c.isSolved());
 
             return convertView;

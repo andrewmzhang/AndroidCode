@@ -29,7 +29,7 @@ public class QuizActivity extends Activity {
     private static final String KEY_CHEATED = "status";
     private static final String KEY_TABLE = "cheat table";
 
-    private boolean[] mCheatTable = new boolean[] {
+    private boolean[] mCheatTable = new boolean[]{
             false,
             false,
             false,
@@ -67,7 +67,7 @@ public class QuizActivity extends Activity {
         }
 
         Toast.makeText(this, messageResId, Toast.LENGTH_SHORT).show();
-        }
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -126,7 +126,7 @@ public class QuizActivity extends Activity {
             }
         });
 
-        mCheatButton = (Button)findViewById(R.id.cheat_button);
+        mCheatButton = (Button) findViewById(R.id.cheat_button);
         mCheatButton.setOnClickListener(new View.OnClickListener() {
 
             @Override
