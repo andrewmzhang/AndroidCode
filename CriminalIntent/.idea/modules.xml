@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CriminalIntent.iml" filepath="$PROJECT_DIR$/CriminalIntent.iml" />
-      <module fileurl="file://$USER_HOME$/Downloads/android-sdk-linux/extras/android/support/v7/appcompat/appcompat.iml" filepath="$USER_HOME$/Downloads/android-sdk-linux/extras/android/support/v7/appcompat/appcompat.iml" />
     </modules>
   </component>
 </project>

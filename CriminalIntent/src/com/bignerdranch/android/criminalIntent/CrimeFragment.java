@@ -29,7 +29,11 @@ public class CrimeFragment extends Fragment {
             "com.bignerdranch.android.criminalintent.crime_id";
 
     public static final String DIALOG_DATE = "date";
+    public static final String DIALOG_CHOICE = "choice";
+    public static final String DIALOG_TIME = "time";
     public static final int REQUEST_DATE = 0;
+    public static final int REQUEST_CHOICE = 1;
+    public static final int REQUEST_TIME = 2;
 
 
     public static CrimeFragment newInstance(UUID crimeId) {
@@ -49,6 +53,29 @@ public class CrimeFragment extends Fragment {
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         if (resultCode != Activity.RESULT_OK) return;
+
+        if (requestCode == REQUEST_CHOICE) {
+            int choice = data.getIntExtra(ChoicePickerFragment.EXTRA_CHOICE, 3);
+            FragmentManager fm = getActivity().getSupportFragmentManager();
+
+            if (choice == 3)
+                return;
+            // time choice
+            else if (choice == ChoicePickerFragment.TIME_CHOICE) {
+                TimePickerFragment dialog = TimePickerFragment.newInstance(data.);
+                dialog.setTargetFragment(CrimeFragment.this, REQUEST_TIME );
+                dialog.show(fm, DIALOG_TIME);
+            }
+
+            else if (choice == ChoicePickerFragment.DATE_CHOICE) {
+
+
+            }
+
+        }
+
+
+
         if (requestCode == REQUEST_DATE) {
 
             Date date = (Date) data
@@ -106,9 +133,9 @@ public class CrimeFragment extends Fragment {
             public void onClick(View v) {
 
                 FragmentManager fm = getActivity().getSupportFragmentManager();
-                TimePickerFragment dialog = TimePickerFragment.newInstance(mCrime.getDate());
-                dialog.setTargetFragment(CrimeFragment.this, REQUEST_DATE);
-                dialog.show(fm, DIALOG_DATE);
+                ChoicePickerFragment dialog = ChoicePickerFragment.newInstance();
+                dialog.setTargetFragment(CrimeFragment.this, REQUEST_CHOICE);
+                dialog.show(fm, DIALOG_CHOICE);
 
             }
 

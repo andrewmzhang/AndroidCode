@@ -10,6 +10,6 @@
     <string name="date_picker_title">Date of crime:</string>
     <string name="time_picker_title">Time of crime:</string>
     <string name="date_choice">Change Date</string>
-    <string name="time_choice:">Change Time</string>
+    <string name="time_choice">Change Time</string>
 
 </resources>
