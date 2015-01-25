@@ -20,7 +20,7 @@ public class ChoicePickerFragment extends DialogFragment {
     public static String EXTRA_CHOICE = "com.bignerdranch.android.criminalintent.choice";
     public static int DATE_CHOICE = 1;
     public static int TIME_CHOICE = 2;
-
+    public static int FAILED_CHOICE = 3;
     public static ChoicePickerFragment newInstance(){
 
         return new ChoicePickerFragment();
@@ -33,6 +33,7 @@ public class ChoicePickerFragment extends DialogFragment {
 
 
         return new AlertDialog.Builder(getActivity())
+                .setTitle(R.string.choice_title)
                 .setPositiveButton(R.string.date_choice, new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {

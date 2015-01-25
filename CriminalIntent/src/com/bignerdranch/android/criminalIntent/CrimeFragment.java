@@ -55,26 +55,26 @@ public class CrimeFragment extends Fragment {
         if (resultCode != Activity.RESULT_OK) return;
 
         if (requestCode == REQUEST_CHOICE) {
-            int choice = data.getIntExtra(ChoicePickerFragment.EXTRA_CHOICE, 3);
+            int choice = data.getIntExtra(ChoicePickerFragment.EXTRA_CHOICE, ChoicePickerFragment.FAILED_CHOICE);
             FragmentManager fm = getActivity().getSupportFragmentManager();
 
-            if (choice == 3)
+            if (choice == ChoicePickerFragment.FAILED_CHOICE)
                 return;
             // time choice
             else if (choice == ChoicePickerFragment.TIME_CHOICE) {
-                TimePickerFragment dialog = TimePickerFragment.newInstance(data.);
+                TimePickerFragment dialog = TimePickerFragment.newInstance(mCrime.getDate());
                 dialog.setTargetFragment(CrimeFragment.this, REQUEST_TIME );
                 dialog.show(fm, DIALOG_TIME);
             }
 
             else if (choice == ChoicePickerFragment.DATE_CHOICE) {
-
+                DatePickerFragment dialog = new DatePickerFragment().newInstance(mCrime.getDate());
+                dialog.setTargetFragment(CrimeFragment.this, REQUEST_DATE);
+                dialog.show(fm, DIALOG_DATE);
 
             }
 
         }
-
-
 
         if (requestCode == REQUEST_DATE) {
 
@@ -82,6 +82,18 @@ public class CrimeFragment extends Fragment {
                     .getSerializableExtra(DatePickerFragment.EXTRA_DATE);
             if (date == null)
                 date = (Date) data.getSerializableExtra(TimePickerFragment.EXTRA_TIME);
+
+            mCrime.setDate(date);
+            updateDate();
+
+        }
+
+        if (requestCode == REQUEST_TIME) {
+
+            Date date = (Date) data
+                    .getSerializableExtra(TimePickerFragment.EXTRA_TIME);
+            if (date == null)
+                date = (Date) data.getSerializableExtra(DatePickerFragment.EXTRA_DATE);
 
             mCrime.setDate(date);
             updateDate();
