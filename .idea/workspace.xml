@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e4022c5e-b38c-4a4a-a75b-08d5dda05668" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AndroidCode.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CriminalIntent/AndroidManifest.xml" afterPath="$PROJECT_DIR$/CriminalIntent/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GeoQuiz/AndroidManifest.xml" afterPath="$PROJECT_DIR$/GeoQuiz/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/AndroidManifest.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/bin/AndroidManifest.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/bin/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CriminalIntent/gen/com/bignerdranch/android/criminalIntent/BuildConfig.java" afterPath="$PROJECT_DIR$/CriminalIntent/gen/com/bignerdranch/android/criminalIntent/BuildConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GeoQuiz/gen/com/bignerdranch/geoquiz/BuildConfig.java" afterPath="$PROJECT_DIR$/GeoQuiz/gen/com/bignerdranch/geoquiz/BuildConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CriminalIntent/src/com/bignerdranch/android/criminalIntent/Crime.java" afterPath="$PROJECT_DIR$/CriminalIntent/src/com/bignerdranch/android/criminalIntent/Crime.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CriminalIntent/src/com/bignerdranch/android/criminalIntent/CrimeActivity.java" afterPath="$PROJECT_DIR$/CriminalIntent/src/com/bignerdranch/android/criminalIntent/CrimeActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CriminalIntent/src/com/bignerdranch/android/criminalIntent/CrimeFragment.java" afterPath="$PROJECT_DIR$/CriminalIntent/src/com/bignerdranch/android/criminalIntent/CrimeFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CriminalIntent/src/com/bignerdranch/android/criminalIntent/CrimeLab.java" afterPath="$PROJECT_DIR$/CriminalIntent/src/com/bignerdranch/android/criminalIntent/CrimeLab.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CriminalIntent/src/com/bignerdranch/android/criminalIntent/CrimeListActivity.java" afterPath="$PROJECT_DIR$/CriminalIntent/src/com/bignerdranch/android/criminalIntent/CrimeListActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CriminalIntent/src/com/bignerdranch/android/criminalIntent/CrimeListFragment.java" afterPath="$PROJECT_DIR$/CriminalIntent/src/com/bignerdranch/android/criminalIntent/CrimeListFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GeoQuiz/src/com/bignerdranch/geoquiz/QuizActivity.java" afterPath="$PROJECT_DIR$/GeoQuiz/src/com/bignerdranch/geoquiz/QuizActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/layout/abc_action_bar_decor.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/layout/abc_action_bar_decor.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/layout-v11/abc_action_bar_decor.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/layout-v11/abc_action_bar_decor.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/layout/abc_action_bar_decor_include.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/layout/abc_action_bar_decor_include.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/layout/abc_action_bar_decor_overlay.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/layout/abc_action_bar_decor_overlay.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/layout/abc_action_bar_home.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/layout/abc_action_bar_home.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/layout/abc_action_bar_tab.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/layout/abc_action_bar_tab.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/layout/abc_action_bar_tabbar.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/layout/abc_action_bar_tabbar.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/layout/abc_action_bar_title_item.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/layout/abc_action_bar_title_item.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/layout/abc_action_bar_view_list_nav_layout.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/layout/abc_action_bar_view_list_nav_layout.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/layout/abc_action_menu_item_layout.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/layout/abc_action_menu_item_layout.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/layout/abc_action_menu_layout.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/layout/abc_action_menu_layout.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/layout/abc_action_mode_bar.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/layout/abc_action_mode_bar.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/layout/abc_action_mode_close_item.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/layout/abc_action_mode_close_item.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/layout/abc_activity_chooser_view.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/layout/abc_activity_chooser_view.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/layout-v14/abc_activity_chooser_view.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/layout-v14/abc_activity_chooser_view.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/layout/abc_activity_chooser_view_include.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/layout/abc_activity_chooser_view_include.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/layout/abc_activity_chooser_view_list_item.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/layout/abc_activity_chooser_view_list_item.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/layout/abc_expanded_menu_layout.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/layout/abc_expanded_menu_layout.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/anim/abc_fade_in.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/anim/abc_fade_in.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/anim/abc_fade_out.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/anim/abc_fade_out.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/drawable/abc_ic_clear.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/drawable/abc_ic_clear.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/drawable/abc_ic_clear_holo_light.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/drawable/abc_ic_clear_holo_light.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/drawable/abc_item_background_holo_dark.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/drawable/abc_item_background_holo_dark.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/drawable/abc_item_background_holo_light.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/drawable/abc_item_background_holo_light.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/layout/abc_list_menu_item_checkbox.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/layout/abc_list_menu_item_checkbox.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/layout/abc_list_menu_item_icon.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/layout/abc_list_menu_item_icon.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/layout/abc_list_menu_item_layout.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/layout/abc_list_menu_item_layout.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/layout/abc_list_menu_item_radio.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/layout/abc_list_menu_item_radio.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/drawable/abc_list_selector_background_transition_holo_dark.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/drawable/abc_list_selector_background_transition_holo_dark.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/drawable/abc_list_selector_background_transition_holo_light.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/drawable/abc_list_selector_background_transition_holo_light.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/drawable/abc_list_selector_holo_dark.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/drawable/abc_list_selector_holo_dark.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/drawable/abc_list_selector_holo_light.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/drawable/abc_list_selector_holo_light.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/layout/abc_popup_menu_item_layout.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/layout/abc_popup_menu_item_layout.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/drawable/abc_search_dropdown_dark.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/drawable/abc_search_dropdown_dark.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/layout/abc_search_dropdown_item_icons_2line.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/layout/abc_search_dropdown_item_icons_2line.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/drawable/abc_search_dropdown_light.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/drawable/abc_search_dropdown_light.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/color/abc_search_url_text_holo.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/color/abc_search_url_text_holo.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/layout/abc_search_view.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/layout/abc_search_view.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/layout/abc_simple_decor.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/layout/abc_simple_decor.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/layout-v11/abc_simple_decor.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/layout-v11/abc_simple_decor.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/anim/abc_slide_in_bottom.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/anim/abc_slide_in_bottom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/anim/abc_slide_in_top.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/anim/abc_slide_in_top.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/anim/abc_slide_out_bottom.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/anim/abc_slide_out_bottom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/anim/abc_slide_out_top.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/anim/abc_slide_out_top.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/drawable/abc_spinner_ab_holo_dark.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/drawable/abc_spinner_ab_holo_dark.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/drawable/abc_spinner_ab_holo_light.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/drawable/abc_spinner_ab_holo_light.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/drawable/abc_tab_indicator_ab_holo.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/drawable/abc_tab_indicator_ab_holo.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/drawable/abc_textfield_searchview_holo_dark.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/drawable/abc_textfield_searchview_holo_dark.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/drawable/abc_textfield_searchview_holo_light.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/drawable/abc_textfield_searchview_holo_light.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/drawable/abc_textfield_searchview_right_holo_dark.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/drawable/abc_textfield_searchview_right_holo_dark.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/drawable/abc_textfield_searchview_right_holo_light.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/drawable/abc_textfield_searchview_right_holo_light.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values/attrs.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values/attrs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values/bools.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values/bools.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-land/bools.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-land/bools.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-large/bools.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-large/bools.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-w480dp/bools.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-w480dp/bools.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-w720dp/bools.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-w720dp/bools.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-xlarge/bools.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-xlarge/bools.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GeoQuiz/build.xml" afterPath="$PROJECT_DIR$/GeoQuiz/build.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/build.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/build.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values/colors.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values/colors.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values/config.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-land/config.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-land/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-large/config.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-large/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-sw600dp/config.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-sw600dp/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-w480dp/config.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-w480dp/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GeoQuiz/res/values/dimens.xml" afterPath="$PROJECT_DIR$/GeoQuiz/res/values/dimens.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values/dimens.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values/dimens.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-land/dimens.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-land/dimens.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-large/dimens.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-large/dimens.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-sw600dp/dimens.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-sw600dp/dimens.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-w360dp/dimens.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-w360dp/dimens.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-w500dp/dimens.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-w500dp/dimens.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-w600dp/dimens.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-w600dp/dimens.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-xlarge/dimens.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-xlarge/dimens.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CriminalIntent/res/layout/fragment_crime.xml" afterPath="$PROJECT_DIR$/CriminalIntent/res/layout/fragment_crime.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values/ids.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values/ids.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GeoQuiz/res/values/strings.xml" afterPath="$PROJECT_DIR$/GeoQuiz/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values/strings.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-af/strings.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-af/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-am/strings.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-am/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-ar/strings.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-ar/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-bg/strings.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-bg/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-ca/strings.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-ca/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-cs/strings.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-cs/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-da/strings.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-da/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-de/strings.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-de/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-el/strings.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-el/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-en-rGB/strings.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-en-rGB/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-en-rIN/strings.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-en-rIN/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-es/strings.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-es/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-es-rUS/strings.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-es-rUS/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-et-rEE/strings.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-et-rEE/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-fa/strings.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-fa/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-fi/strings.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-fi/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-fr/strings.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-fr/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-fr-rCA/strings.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-fr-rCA/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-hi/strings.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-hi/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-hr/strings.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-hr/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-hu/strings.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-hu/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-hy-rAM/strings.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-hy-rAM/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-in/strings.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-in/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-it/strings.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-it/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-iw/strings.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-iw/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-ja/strings.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-ja/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-ka-rGE/strings.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-ka-rGE/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-km-rKH/strings.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-km-rKH/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-ko/strings.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-ko/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-lo-rLA/strings.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-lo-rLA/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-lt/strings.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-lt/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-lv/strings.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-lv/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-mn-rMN/strings.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-mn-rMN/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-ms-rMY/strings.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-ms-rMY/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-nb/strings.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-nb/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-nl/strings.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-nl/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-pl/strings.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-pl/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-pt/strings.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-pt/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-pt-rPT/strings.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-pt-rPT/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-ro/strings.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-ro/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-ru/strings.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-ru/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-sk/strings.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-sk/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-sl/strings.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-sl/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-sr/strings.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-sr/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-sv/strings.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-sv/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-sw/strings.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-sw/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-th/strings.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-th/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-tl/strings.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-tl/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-tr/strings.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-tr/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-uk/strings.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-uk/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-vi/strings.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-vi/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-zh-rCN/strings.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-zh-rCN/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-zh-rHK/strings.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-zh-rHK/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-zh-rTW/strings.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-zh-rTW/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-zu/strings.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-zu/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values/styles.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values/styles.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values/styles_base.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values/styles_base.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-v11/styles_base.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-v11/styles_base.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-v14/styles_base.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-v14/styles_base.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/layout/support_simple_spinner_dropdown_item.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/layout/support_simple_spinner_dropdown_item.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values/themes.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values/themes.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values/themes_base.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values/themes_base.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-large/themes_base.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-large/themes_base.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-large-v14/themes_base.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-large-v14/themes_base.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-v11/themes_base.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-v11/themes_base.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-v14/themes_base.xml" afterPath="$PROJECT_DIR$/android-support-v7-appcompat/res/values-v14/themes_base.xml" />
+    </list>
+    <ignored path="GeoQuiz.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="GeoQuiz" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="tasksExpandState">
+      <map>
+        <entry key="" value="true" />
+      </map>
+    </option>
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="AndroidCode" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value=":app" />
+                <option name="path" value="$PROJECT_DIR$/app" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="AndroidCode" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$" value="1415603888200" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1920" />
+    <option name="y" value="-4" />
+    <option name="width" value="1920" />
+    <option name="height" value="1084" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HostApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HostApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AndroidCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Custom" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="recentsLimit" value="5" />
+  </component>
+  <component name="RunManager" selected="Android Application.AndroidCode">
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="AndroidCode" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="AndroidCode" />
+      <option name="ACTIVITY_CLASS" value="com.andrewmzhang.HostApp.MyActivity" />
+      <option name="MODE" value="specific_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="false" name="app" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="app" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Android Application.AndroidCode" />
+      <item index="1" class="java.lang.String" itemvalue="Android Application.app" />
+    </list>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e4022c5e-b38c-4a4a-a75b-08d5dda05668" name="Default" comment="" />
+      <created>1415591063402</created>
+      <option name="number" value="Default" />
+      <updated>1415591063402</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1920" y="-4" width="1920" height="1084" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24947916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+</project>
