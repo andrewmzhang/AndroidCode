@@ -53,7 +53,7 @@ public class CrimePagerActivity extends FragmentActivity {
                 Crime crime = mCrimes.get(pos);
                 if (crime.getTitle() != null)
                     setTitle(crime.getTitle());
-
+\
             }
 
         });
