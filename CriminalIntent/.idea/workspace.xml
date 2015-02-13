@@ -44,8 +44,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/com/bignerdranch/android/criminalIntent/CrimeListFragment.java" line="57" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7479d4a-75b9-4ce1-8ebb-69251a085071" name="Default" comment="Added + menu button&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/menu/fragment_crime_list.xml" />
+    <list default="true" id="d7479d4a-75b9-4ce1-8ebb-69251a085071" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CriminalIntent/com/bignerdranch/android/criminalIntent/CrimeLab.class" afterPath="$PROJECT_DIR$/out/production/CriminalIntent/com/bignerdranch/android/criminalIntent/CrimeLab.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CriminalIntent/com/bignerdranch/android/criminalIntent/CrimeListFragment$CrimeAdapter.class" afterPath="$PROJECT_DIR$/out/production/CriminalIntent/com/bignerdranch/android/criminalIntent/CrimeListFragment$CrimeAdapter.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CriminalIntent/com/bignerdranch/android/criminalIntent/CrimeListFragment.class" afterPath="$PROJECT_DIR$/out/production/CriminalIntent/com/bignerdranch/android/criminalIntent/CrimeListFragment.class" />
@@ -55,12 +54,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CriminalIntent/com/bignerdranch/android/criminalIntent/R$layout.class" afterPath="$PROJECT_DIR$/out/production/CriminalIntent/com/bignerdranch/android/criminalIntent/R$layout.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CriminalIntent/com/bignerdranch/android/criminalIntent/R$string.class" afterPath="$PROJECT_DIR$/out/production/CriminalIntent/com/bignerdranch/android/criminalIntent/R$string.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CriminalIntent/com/bignerdranch/android/criminalIntent/R.class" afterPath="$PROJECT_DIR$/out/production/CriminalIntent/com/bignerdranch/android/criminalIntent/R.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/bignerdranch/android/criminalIntent/CrimeLab.java" afterPath="$PROJECT_DIR$/src/com/bignerdranch/android/criminalIntent/CrimeLab.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/bignerdranch/android/criminalIntent/CrimeListFragment.java" afterPath="$PROJECT_DIR$/src/com/bignerdranch/android/criminalIntent/CrimeListFragment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/bignerdranch/android/criminalIntent/CrimePagerActivity.java" afterPath="$PROJECT_DIR$/src/com/bignerdranch/android/criminalIntent/CrimePagerActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HelloMoon/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../HelloMoon/.idea/workspace.xml" />
     </list>
     <ignored path="CriminalIntent.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -160,8 +155,8 @@
       <file leaf-file-name="CrimePagerActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/bignerdranch/android/criminalIntent/CrimePagerActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9174603" vertical-offset="97" max-vertical-offset="1050">
-              <caret line="55" column="1" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.4047619" vertical-offset="420" max-vertical-offset="1050">
+              <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -783,7 +778,13 @@
       <option name="project" value="LOCAL" />
       <updated>1422170503757</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added + menu button&#10;">
+      <created>1423818848026</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1423818848026</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -808,12 +809,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="1920" height="1084" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960325" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960325" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32858595" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32858595" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1334,8 +1335,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/bignerdranch/android/criminalIntent/CrimePagerActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9174603" vertical-offset="97" max-vertical-offset="1050">
-          <caret line="55" column="1" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.4047619" vertical-offset="420" max-vertical-offset="1050">
+          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
           <folding />
         </state>
       </provider>
