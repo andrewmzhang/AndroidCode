@@ -1,6 +1,7 @@
 package com.bignerdranch.android.hellomoon;
 
 
+import android.content.res.Configuration;
 import android.media.MediaPlayer;
 import android.net.Uri;
 import android.widget.MediaController;
@@ -22,6 +23,15 @@ public class HelloMoonFragment extends Fragment {
     private VideoView mVideo;
     private MediaController mediaController;
     private Uri resourceUri = Uri.parse("android.resource://" + "com.bignerdranch.android.hellomoon/raw/apollo_17_stroll");
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setRetainInstance(true);
+
+    }
+
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup parent, Bundle savedInstanceState) {
 
