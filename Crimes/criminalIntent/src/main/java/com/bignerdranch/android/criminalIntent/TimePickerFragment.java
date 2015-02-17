@@ -75,6 +75,8 @@ public class TimePickerFragment extends DialogFragment {
         timePicker.setOnTimeChangedListener(new TimePicker.OnTimeChangedListener() {
             @Override
             public void onTimeChanged(TimePicker view, int hourOfDay, int minute) {
+                System.out.println("DayChanged!!!");
+
 
                 mTime = new GregorianCalendar(year, month, day, hourOfDay, minute).getTime();
 

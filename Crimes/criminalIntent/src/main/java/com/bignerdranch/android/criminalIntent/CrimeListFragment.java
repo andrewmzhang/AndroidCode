@@ -1,9 +1,11 @@
 package com.bignerdranch.android.criminalIntent;
 
 
+import android.annotation.TargetApi;
+import android.app.ListFragment;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v4.app.ListFragment;
+import android.support.v7.app.ActionBar;
 import android.util.Log;
 import android.view.*;
 import android.widget.ArrayAdapter;
@@ -13,7 +15,7 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-public class CrimeListFragment extends ListFragment {
+public class CrimeListFragment extends android.support.v4.app.ListFragment {
     private ArrayList<Crime> mCrimes;
     private static final String TAG = "CrimeListFragment";
 
@@ -22,8 +24,12 @@ public class CrimeListFragment extends ListFragment {
         super.onCreate(savedInstanceState);
         setHasOptionsMenu(true);
 
+
+
+
     }
 
+    @TargetApi(11)
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
@@ -33,6 +39,9 @@ public class CrimeListFragment extends ListFragment {
                 Intent i = new Intent(getActivity(), CrimePagerActivity.class);
                 i.putExtra(CrimeFragment.EXTRA_CRIME_ID, crime.getId());
                 startActivityForResult(i, 0);
+                return true;
+            case R.id.menu_item_show_subtitle:
+                getActivity().getActionBar().setSubtitle(R.string.subtitle);
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
@@ -62,6 +71,7 @@ public class CrimeListFragment extends ListFragment {
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
         super.onCreateOptionsMenu(menu, inflater);
         inflater.inflate(R.menu.fragment_crime_list, menu);
+
     }
 
     @Override
@@ -70,10 +80,13 @@ public class CrimeListFragment extends ListFragment {
 
         getActivity().setTitle(R.string.crimes_title);
 
+
         mCrimes = CrimeLab.get(getActivity()).getCrimes();
 
         CrimeAdapter adapter = new CrimeAdapter(mCrimes);
         setListAdapter(adapter);
+
+
 
 
     }
